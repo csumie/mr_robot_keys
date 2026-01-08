@@ -16,7 +16,7 @@ body,html {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  margin-top: 20%;
+  padding-top: 20%;
 }
 
 .keys_bg {
