@@ -12,17 +12,18 @@ body,html {
 
 .keys {
   display: flex;
-  flex: 1;
-  min-height: 100vh;
+  flex-direction: row;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
 }
 
 .keys_bg {
-  background-image: url("../imgs/mr-robot-bg_hi-res.jpg");
+  background-image: url(../imgs/mr-robot-bg_hi-res.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  min-height: 100vh;
 }
 
 .key {
